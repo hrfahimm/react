@@ -1,0 +1,16 @@
+[
+	{
+		"_id": "63fd7fe187660478f3b3a51d",
+		"price": "<ReferenceError: price is not defined>",
+		"name": "Jill Riddle",
+		"gender": "female",
+		"email": "jillriddle@malathion.com"
+	},
+	{
+		"_id": "63fd7fe1feca861b599fd9c5",
+		"price": "<ReferenceError: price is not defined>",
+		"name": "Walsh Hester",
+		"gender": "male",
+		"email": "walshhester@malathion.com"
+	}
+]
