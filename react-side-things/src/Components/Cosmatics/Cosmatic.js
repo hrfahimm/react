@@ -1,5 +1,5 @@
 import React from "react";
-import {addToDb} from "../Utilities/fakedb";
+import {addToDb, deleteFromDb} from "../Utilities/fakedb";
 
 const Cosmatic = (props) => {
 	const {name, _id, price, email} = props.cosmetic;
@@ -7,7 +7,9 @@ const Cosmatic = (props) => {
 		console.log(id);
 		addToDb(id);
 	};
-	const withPram = (id) => handelpurches(id);
+	const handelRemove = (id) => {
+		deleteFromDb(id);
+	};
 	return (
 		<div>
 			<h2>name:{name}</h2>
@@ -15,6 +17,7 @@ const Cosmatic = (props) => {
 			<p>price: {price}</p>
 			<p>email:{email}</p>
 			<button onClick={() => handelpurches(_id)}>Purches</button>
+			<button onClick={() => handelRemove(_id)}>REmove</button>
 		</div>
 	);
 };
