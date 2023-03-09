@@ -1,0 +1,45 @@
+.header {
+	display: flex;
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+}
+.heaader .logo .img-logo {
+	margin: 60px;
+}
+.header .menu a {
+	text-decoration: none;
+
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+	font-weight: 400;
+	margin-left: 30px;
+}
+.header .menu a:hover {
+	color: rgb(54, 240, 224);
+}
+
+.search-bar {
+	background-color: black;
+	align-items: center;
+	text-align: center;
+
+	justify-content: center;
+	background: black;
+	padding: 20px;
+}
+.search-bar .input-fild {
+	padding: 7px;
+	border-radius: 10px 0px 0px 10px;
+}
+.search-bar .search-btn {
+	background-color: aquamarine;
+	padding: 7px;
+	border-radius: 0px 10px 10px 0px;
+	cursor: pointer;
+}
+.search-bar .search-btn:hover {
+	background-color: rgb(145, 44, 228);
+}
