@@ -1,9 +1,19 @@
 .shop-container {
-	display: grid;
-	grid-template-columns: 3fr 1fr;
+	padding: 20px;
+}
+.cart-container {
+	text-align: center;
+	margin: 20px;
+
+	border-bottom: 1px solid black;
+}
+.cart-container h2 {
+	color: red;
+	font-weight: bold;
 }
 .product-container {
 	border-right: 1px solid black;
-	margin-right: 5px;
-	margin-left: 50px;
+}
+.product-container h2 {
+	text-align: center;
 }

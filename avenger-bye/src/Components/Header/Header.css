@@ -1,0 +1,17 @@
+.header{
+    border-bottom: 1px solid rgb(10, 207, 207);
+}
+.header .logo {
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+}
+.logo img {
+	width: 100%;
+}
