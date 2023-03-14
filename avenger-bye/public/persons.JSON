@@ -1,8 +1,44 @@
 [
 	{
-		"name": "ULTRABOOST 22 SHOES",
-		"sellary": 420,
-		"ratings": 4,
-		"img": "../src/images"
+		"picture": "http://placehold.it/32x32",
+		"age": 40,
+		"name": "Sarah Allison",
+		"sellery": 79255
+	},
+	{
+		"picture": "http://placehold.it/32x32",
+		"age": 35,
+		"name": "Duran Gilliam",
+		"sellery": 91603
+	},
+	{
+		"picture": "http://placehold.it/32x32",
+		"age": 24,
+		"name": "Cherie Hughes",
+		"sellery": 63751
+	},
+	{
+		"picture": "http://placehold.it/32x32",
+		"age": 25,
+		"name": "Sheri Perry",
+		"sellery": 93469
+	},
+	{
+		"picture": "http://placehold.it/32x32",
+		"age": 35,
+		"name": "Lucia Harrison",
+		"sellery": 64154
+	},
+	{
+		"picture": "http://placehold.it/32x32",
+		"age": 28,
+		"name": "Anna Ball",
+		"sellery": 74017
+	},
+	{
+		"picture": "http://placehold.it/32x32",
+		"age": 30,
+		"name": "Pauline Beach",
+		"sellery": 57737
 	}
 ]
