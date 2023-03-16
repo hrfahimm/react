@@ -1,3 +1,8 @@
+.cards {
+	display: flex;
+	/* grid-template-columns: 3fr 1fr; */
+	justify-content: flex-start;
+}
 .cards .card {
 	width: 300px;
 	height: auto;
@@ -5,13 +10,12 @@
 	margin-top: 20px;
 	text-align: center;
 	border: 1px solid black;
-    
 }
 
 .cards .card img {
 	vertical-align: middle;
-	width: 200px;
-	height: 250px;
+	width: 100%;
+	border-bottom: 1px solid black;
 }
 
 .card button {

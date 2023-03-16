@@ -1,0 +1,49 @@
+.topnav {
+	background-color: #fffefe;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+
+	/* overflow: hidden; */
+}
+
+/* Style the links inside the navigation bar */
+.topnav p {
+	float: left;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid rgba(40, 233, 214, 0.73);
+	border-radius: 10px;
+	margin: 10px;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav .logo {
+	float: right;
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+.logo img {
+	width: 100%;
+}
+
+.input-container {
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.input-container input {
+	width: 250px;
+	height: 30px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+}
