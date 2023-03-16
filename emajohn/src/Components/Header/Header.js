@@ -18,9 +18,7 @@ const Header = () => {
 					</div>
 				</div>
 			</nav>
-			<div className="input-container">
-				<input type="text" placeholder="Search Here..." />
-			</div>
+			
 		</div>
 	);
 };

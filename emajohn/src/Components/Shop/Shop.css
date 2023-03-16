@@ -2,20 +2,33 @@
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 }
-.cart-container {
+.shop-container .cart-container {
 	text-align: center;
 	margin: 20px;
+}
+.shop-container .cart-container h5 {
+	padding: 10px;
+	font-weight: bold;
 	border-bottom: 1px solid black;
 }
-.cart-container h2 {
-	color: red;
-	font-weight: bold;
-}
-.product-container {
+.shop-container .product-container {
 	border-right: 1px solid gray;
 	margin-right: 10px;
 	margin-left: 50px;
 }
-.product-container h2 {
+
+.input-container {
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.input-container input {
+	width: 250px;
+	height: 30px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 5px;
 	text-align: center;
 }
