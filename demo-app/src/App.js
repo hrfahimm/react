@@ -11,7 +11,7 @@ import Culture from "./components/Culture/Culture";
 
 export default function App() {
 	return (
-		<div>
+		<div className="App">
 			<Router>
 				<Header></Header>
 				<Routes>
