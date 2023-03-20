@@ -1,0 +1,19 @@
+.menu {
+	display: flex;
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+}
+.menu .link {
+	text-decoration: none;
+
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+	font-weight: 400;
+	margin-left: 30px;
+}
+.menu a:hover {
+	color: rgb(54, 240, 224);
+}
