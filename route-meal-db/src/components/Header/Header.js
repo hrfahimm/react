@@ -10,6 +10,9 @@ const Header = () => {
 			<Link className="link" to="/restaurant">
 				Restaurant
 			</Link>
+			<Link className="link" to="/meal">
+				Meal
+			</Link>
 		</nav>
 	);
 };

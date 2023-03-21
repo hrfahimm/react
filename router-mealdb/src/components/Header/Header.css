@@ -1,0 +1,19 @@
+.header {
+	background: black;
+	border-bottom: 1px solid rgb(41, 223, 226);
+	padding: 30px 10px;
+	color: #000000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.header .link {
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid rgb(41, 223, 226);
+}
+ 

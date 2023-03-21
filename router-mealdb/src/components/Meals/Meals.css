@@ -1,0 +1,25 @@
+.meals-container {
+	display: grid;
+	/* grid-template-columns: repeat(3fr 3fr); */
+	grid-template-columns: auto auto auto;
+	grid-gap: 1rem;
+	padding-top: 40px;
+	margin: 40px 5px;
+}
+
+.search-fild {
+	background-color: black;
+	border-bottom: 3px solid rgb(41, 223, 226);
+}
+.search-fild input {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid rgb(41, 223, 226);
+	font-weight: bold;
+}
