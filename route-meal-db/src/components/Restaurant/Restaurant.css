@@ -1,0 +1,24 @@
+/* .restaurant-menu {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-column-gap: 20px;
+} */
+.search-container .meals-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.search-fild {
+	background: black;
+	border-bottom: 3px solid rgb(41, 223, 226);
+}
+.search-fild input {
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	margin: 20px;
+	border-radius: 10px;
+	border: 2px solid rgb(41, 223, 226);
+	font-weight: bold;
+}

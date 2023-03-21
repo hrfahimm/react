@@ -1,0 +1,16 @@
+.menu {
+	background: black;
+	border-bottom: 3px solid rgb(41, 223, 226);
+	width: auto;
+
+	padding: 30px;
+}
+
+.menu .link {
+	text-decoration: none;
+	margin: 5px;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid rgb(41, 223, 226);
+}
