@@ -3,22 +3,16 @@ import "./Header.css";
 import logo from "../../images/1240255.png";
 const Header = () => {
 	return (
-		<div>
-			<nav>
-				<div className="topnav">
-					<div className="logo">
-						<img src={logo} alt="" />
-					</div>
+		<div className="header">
+			<div className="logo">
+				<img src={logo} alt="" />
+			</div>
 
-					<div className="">
-						<p>Home</p>
-						<p>News</p>
-						<p>Contact</p>
-						 
-					</div>
-				</div>
-			</nav>
-			
+			<div className="menu">
+				<a href="/shop">Shop</a>
+				<a href="/review">Order Review</a>
+				<a href="/inventory"> Inventory</a>
+			</div>
 		</div>
 	);
 };

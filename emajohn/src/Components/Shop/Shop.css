@@ -1,4 +1,4 @@
-.shop-container {
+/* .shop-container {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 }
@@ -31,4 +31,37 @@
 	font-weight: bold;
 	padding: 5px;
 	text-align: center;
+} */
+
+.search-container {
+	background-color: black;
+	align-items: center;
+	text-align: center;
+
+	justify-content: center;
+	background: black;
+	padding: 20px;
+}
+.search-container .input-fild {
+	padding: 7px;
+	border-radius: 10px 0px 0px 10px;
+}
+.search-container .search-btn {
+	background-color: aquamarine;
+	padding: 7px;
+	border-radius: 0px 10px 10px 0px;
+	cursor: pointer;
+}
+.search-container .search-btn:hover {
+	background-color: rgb(145, 44, 228);
+}
+
+.shop-container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+.product-container {
+	border-right: 1px solid lightblue;
+	margin-right: 10px;
+	margin-left: 50px;
 }

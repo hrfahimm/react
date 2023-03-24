@@ -31,7 +31,7 @@ const Shop = () => {
 		}
 	}, [products]);
 
-	const handelAddToCart = (product) => {
+	const handleAddToCart = (product) => {
 		// console.log(product);
 		const newCart = [...cart, product];
 		setCart(newCart);
@@ -47,16 +47,21 @@ const Shop = () => {
 
 	return (
 		<div>
-			<div className="input-container">
-				<input type="text" placeholder="Search Here..." onChange={handleSearch} />
+			<div className="search-container">
+				<input
+					className="input-fild"
+					type="text"
+					placeholder="Search Here..."
+					onChange={handleSearch}
+				/>
 			</div>
 			<div className="shop-container">
-				<div className="person-container">
+				<div className="product-container">
 					<h3>Our Products </h3>
 
 					{displayProducts.map((product) => (
 						<Product
-							handelAddToCart={handelAddToCart}
+							handleAddToCart={handleAddToCart}
 							key={product.key}
 							product={product}></Product>
 					))}
