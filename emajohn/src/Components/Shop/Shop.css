@@ -34,17 +34,17 @@
 } */
 
 .search-container {
-	background-color: black;
+	background-color: rgb(70, 224, 201);
 	align-items: center;
 	text-align: center;
 
 	justify-content: center;
-	background: black;
-	padding: 20px;
+	background: rgb(89, 220, 230);
+	padding: 10px;
 }
 .search-container .input-fild {
 	padding: 7px;
-	border-radius: 10px 0px 0px 10px;
+	border-radius: 10px;
 }
 .search-container .search-btn {
 	background-color: aquamarine;
