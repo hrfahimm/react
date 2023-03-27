@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+//import React, {useEffect, useState} from "react";
 import useCart from "../../hooks/useCart";
 
 import useProducts from "../../hooks/useProducts";
@@ -25,7 +25,9 @@ const OrderReview = () => {
 				))}
 			</div>
 			<div className="cart-container">
-				<Cart cart={cart}></Cart>
+				<Cart cart={cart}>
+					<p>hi orders</p>
+				</Cart>
 			</div>
 		</div>
 	);
