@@ -1,18 +1,32 @@
 import React, {useEffect, useState} from "react";
-// import useCart from "../../hooks/useCart";
-// import useProducts from "../../hooks/useProducts";
+import useCart from "../../hooks/useCart";
+
+import useProducts from "../../hooks/useProducts";
 import Cart from "../Cart/Cart";
+import ReviewItem from "../ReviewItem/ReviewItem";
+import "../Product/Product.css";
 import "./OrderReview.css";
+import {removeFromDb} from "../../utilities/fackdb";
 const OrderReview = () => {
-	// const [products, setProducts] = useProducts();
-	// const [cart, setCart] = useCart(products);
+	const [products] = useProducts();
+	const [cart, setCart] = useCart(products);
+	const handleRemove = (key) => {
+		const newCart = cart.filter((product) => product.key !== key);
+		setCart(newCart);
+		removeFromDb(key);
+	};
 
 	return (
-		<div>
-			{/* <h1>{products.length}</h1>
-			<h3>{cart.length}</h3> */}
-			<h2>order review</h2>
-			{/* <Cart></Cart> */}
+		<div className="shop-container">
+			<div className="product-container">
+				<h3>Our Products </h3>
+				{cart.map((product) => (
+					<ReviewItem product={product} key={product.key} handleRemove={handleRemove} />
+				))}
+			</div>
+			<div className="cart-container">
+				<Cart cart={cart}></Cart>
+			</div>
 		</div>
 	);
 };
