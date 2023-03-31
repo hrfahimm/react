@@ -21,7 +21,7 @@ const OrderReview = () => {
 	const handlePleaceOrder = () => {
 		navigate("/pleaceOrder");
 		setCart([]);
-		clearTheCart()
+		clearTheCart();
 	};
 
 	return (
